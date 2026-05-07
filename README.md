@@ -1,2 +1,2 @@
-# youstack
-Youstack is a comprehensive solution for orchestrating the infrastructure of a company of any size.
+# YouStack
+YouStack is a comprehensive solution for orchestrating the infrastructure of a company of any size.
