@@ -1,2 +1,2 @@
 # YouStack
-YouStack is a comprehensive solution for orchestrating the infrastructure of a company of any size.
+Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale.
