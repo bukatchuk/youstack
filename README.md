@@ -31,4 +31,7 @@ Youstack is a comprehensive solution for automating the management and configura
 | [Redis](https://github.com/redis/redis) | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | 🔄 |
 | [Redis Insight](https://github.com/redis/RedisInsight) | Redis GUI by Redis | 🔄 |
 | [RabbitMQ](https://github.com/rabbitmq) | Multi-protocol messaging and streaming broker. | 🔄 |
+| [yopass](https://github.com/jhaals/yopass) | Secure sharing of secrets, passwords and files | 🔄 |
+| [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
+| [vip-manager](https://github.com/cybertec-postgresql/vip-manager) | Manages a virtual IP based on state kept in etcd or Consul. | 🔄 |
     
