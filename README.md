@@ -15,6 +15,5 @@ Youstack is a comprehensive solution for automating the management and configura
 | Jitsi | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
 | SeaweedFS | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | 🔄 |
 | n8n | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations.| 🔄 |
-| mailcow | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations.
-| 🔄 |
+| mailcow | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
     
