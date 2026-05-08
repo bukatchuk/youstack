@@ -5,7 +5,7 @@ Youstack is a comprehensive solution for automating the management and configura
 ## YouStack include:
 | Product  | Description | Status |
 |----------|:-------------|:------:|
-| SaltStack | Software to automate the management and configuration of infrastructure and applications at scale. | 🔄 |
+| [SaltStack](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 🔄 |
 | PowerDNS | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | Gitlab | Open source software to collaborate on code | 🔄 |
 | SonarQube | Provides automated code quality and security reviews, delivering actionable intelligence that helps developers build better and faster.| 🔄 |
