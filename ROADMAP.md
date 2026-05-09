@@ -1,14 +1,14 @@
 # Roadmap
 
 
-| Data Foundation | Product | Description | Status |
-| :--- | :--- | :--- | :--- |
-| | **Kafka** | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-| | **KafkaUI** | Web UI for managing Apache Kafka clusters. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-| | **RabbitMQ** | Multi-protocol messaging and streaming broker. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-| | **Redis** | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-| | **Redis Insight** | Redis GUI by Redis. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-| | **SeaweedFS** | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
+## 1.Data Foundation 
+
+ - ![Status](https://img.shields.io/badge/Status-In_Progress-blue) **Kafka** - Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
+ - ![Status](https://img.shields.io/badge/Status-In_Progress-blue) **KafkaUI** - Web UI for managing Apache Kafka clusters.
+ - ![Status](https://img.shields.io/badge/Status-In_Progress-blue) **RabbitMQ** - Multi-protocol messaging and streaming broker.
+ - ![Status](https://img.shields.io/badge/Status-In_Progress-blue) **Redis** - Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.
+ - ![Status](https://img.shields.io/badge/Status-In_Progress-blue) **Redis Insight** - Redis GUI by Redis.
+| - ![Status](https://img.shields.io/badge/Status-In_Progress-blue) **SeaweedFS** - Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. 
 
 | Business Intelligence & Visualization |
 
