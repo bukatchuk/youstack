@@ -3,7 +3,20 @@ Youstack is a comprehensive solution for automating the management and configura
 
 # Install 
 ```
-git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
+$ git clone git@github.com:bukatchuk/youstack.git && cd youstack
+$ make install
+🔍 [1/6] Checking prerequisites...
+📝 [2/6] Creating script...
+🔧 [3/6] Installing binary...
+✅ ys installed to /usr/local/bin/ys
+📋 [4/6] Installing aliases...
+✅ Aliases added to /home/user/.bashrc
+🔄 [5/6] Reloading bash...
+✅ [6/6] Final test...
+✅ ys ready!
+
+🎉 YouStack 1.0.0 installed successfully!
+Commands: ys, ysc, yssh
 ```
 # Usage
 ```
