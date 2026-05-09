@@ -5,7 +5,7 @@ Youstack is a comprehensive solution for automating the management and configura
 ```
 git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 ```
-Usage
+# Usage
 ```
 # Works identically to salt
 ys '*' test.ping
