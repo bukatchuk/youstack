@@ -4,20 +4,7 @@ Youstack is a comprehensive solution for automating the management and configura
 # Install
 Clone repo and 
 ```
-git clone git@github.com:bukatchuk/youstack.git; \
-cd youstack; \
-chmod +x ys; \
-mv ys /usr/local/bin/ys; \
-cat >> ~/.bashrc << 'EOF'
-
-# YouStack aliases
-alias ys='salt'
-alias ysc='salt-call' 
-alias yssh='salt-ssh'
-
-EOF; \
-\
-source ~/.bashrc
+git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 ```
 Examples
 ```
