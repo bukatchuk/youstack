@@ -1,7 +1,6 @@
 # Roadmap
 
-## 1. Data Foundation
-
+| Data Foundation |
 | Product | Description | Status |
 | :--- | :--- | :--- |
 | **Kafka** | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
@@ -11,7 +10,7 @@
 | **Redis Insight** | Redis GUI by Redis. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 | **SeaweedFS** | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
-## 2. Business Intelligence & Visualization
+| Business Intelligence & Visualization |
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
