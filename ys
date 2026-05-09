@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-# functions
-importEnv () {
-    ./
-}
+set -euo pipefail
 
+# YouStack - transparent salt wrapper
+# Usage: ys [exactly same as salt]
+
+SALT_BIN="${SALT_BIN:-salt}"
+
+exec "$SALT_BIN" "$@"
