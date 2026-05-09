@@ -41,8 +41,10 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [FreeIPA](https://github.com/freeipa/freeipa) | An integrated security information management solution. | 🔄 |
 | [git2consul](https://github.com/breser/git2consul) | Mirrors the contents of a git repository into Consul KVs. | 🔄 |
 | [Gitlab](https://github.com/gitlabhq/gitlabhq) | Open source software to collaborate on code. | 🔄 |
+| [Gitea](https://github.com/go-gitea/gitea) | Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD. | 🔄 |
 | [Grafana](https://github.com/grafana/grafana) | Composable observability and data visualization platform. | 🔄 |
 | [Graylog](https://github.com/Graylog2/graylog2-server) | A powerful Security Information and Event Management (SIEM) solution and log analytics platform that centralizes, secures, and monitors machine-generated data across diverse sources. | 🔄 |
+| [Jenkins](https://github.com/jenkinsci/jenkins) | Automate your development workflow, so you can focus on work that matters most. | 🔄 |
 | [Jitsi](https://github.com/jitsi/jitsi-meet) | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
 | [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
 | [Kafka](https://github.com/apache/kafka) | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | 🔄 |
@@ -61,6 +63,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Redis](https://github.com/redis/redis) | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | 🔄 |
 | [Redis Insight](https://github.com/redis/RedisInsight) | Redis GUI by Redis. | 🔄 |
 | [SaltStack](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 🔄 |
+| [SaltMinion](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 🔄 |
 | [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | 🔄 |
 | [Sentry](https://github.com/getsentry/sentry) | Debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. | 🔄 |
 | [SonarQube](https://github.com/SonarSource/sonarqube) | Provides automated code quality and security reviews, delivering actionable intelligence that helps developers build better and faster. | 🔄 |

@@ -22,7 +22,6 @@ check-prereqs:
 	@command -v salt-call >/dev/null 2>&1 || (echo "❌ salt-call not found"; exit 1)
 	@command -v salt-ssh >/dev/null 2>&1 || (echo "❌ salt-ssh not found"; exit 1)
 	@command -v sudo >/dev/null 2>&1 || (echo "❌ sudo not found"; exit 1)
-	@command -v make >/dev/null 2>&1 || (echo "❌ make not found"; exit 1)
 
 create-script:
 	@echo "📝 [2/6] Creating script..."
