@@ -44,7 +44,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | **Grafana** | Composable observability and data visualization platform. | 🔄 |
 | **Graylog** | A powerful Security Information and Event Management (SIEM) solution and log analytics platform that centralizes, secures, and monitors machine-generated data across diverse sources. | 🔄 |
 | **Jitsi** | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
-| [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement | 🔄 |
+| [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
 | **Kafka** | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | 🔄 |
 | **KafkaUI** | Web UI for managing Apache Kafka clusters. | 🔄 |
 | **kan** | A powerful, flexible kanban app that helps you organise work, track progress, and deliver results—all in one place. | 🔄 |
