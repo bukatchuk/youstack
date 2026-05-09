@@ -44,6 +44,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Gitea](https://github.com/go-gitea/gitea) | Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD. | 🔄 |
 | [Grafana](https://github.com/grafana/grafana) | Composable observability and data visualization platform. | 🔄 |
 | [Graylog](https://github.com/Graylog2/graylog2-server) | A powerful Security Information and Event Management (SIEM) solution and log analytics platform that centralizes, secures, and monitors machine-generated data across diverse sources. | 🔄 |
+| [Harbor](https://github.com/goharbor/harbor) | Trusted cloud native registry project that stores, signs, and scans content. | 🔄 |
 | [Jenkins](https://github.com/jenkinsci/jenkins) | Automate your development workflow, so you can focus on work that matters most. | 🔄 |
 | [Jitsi](https://github.com/jitsi/jitsi-meet) | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
 | [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
@@ -56,9 +57,12 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
 | [NetBox](https://github.com/netbox-community/netbox) | The source of truth for your network infrastructure. Its job is to define and validate the intended state of all network components and resources. | 🔄 |
 | [Nexus](https://github.com/sonatype/nexus-public) | The single source of truth for all your internal and third-party binaries, components, and packages. | 🔄 |
+| [Nora](https://github.com/getnora-io/nora) | Lightweight multi-format artifact registry. | 🔄 |
 | [OpenLDAP](https://git.openldap.org/openldap/openldap) | An open source implementation of the Lightweight Directory Access Protocol. | 🔄 |
+| [OpenVPN](https://github.com/openvpn/openvpn) | A Secure tunneling daemon. | 🔄 |
 | [Plane](https://github.com/makeplane/plane) | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
 | [PowerDNS](https://github.com/PowerDNS/pdns) | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
+| [Pritunl](https://github.com/pritunl/pritunl) | A distributed enterprise vpn server built using the OpenVPN protocol. | 🔄 |
 | [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) | Multi-protocol messaging and streaming broker. | 🔄 |
 | [Redis](https://github.com/redis/redis) | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | 🔄 |
 | [Redis Insight](https://github.com/redis/RedisInsight) | Redis GUI by Redis. | 🔄 |
@@ -71,4 +75,6 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management. | 🔄 |
 | [VictoriaMetrics](https://github.com/victoriametrics/VictoriaMetrics) | Fast, cost-effective, and scalable solution for monitoring and managing time series data. It delivers high performance and reliability, making it an ideal choice for businesses of all sizes. | 🔄 |
 | [vip-manager](https://github.com/cybertec-postgresql/vip-manager) | Manages a virtual IP based on state kept in etcd or Consul. | 🔄 |
+| [WireGuard](https://github.com/WireGuard/wireguard-linux) | An extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. | 🔄 |
+| [WireGuard UI](https://github.com/ngoduykhanh/wireguard-ui) | A web user interface to manage your WireGuard setup. | 🔄 |
 | [yopass](https://github.com/jhaals/yopass) | Secure sharing of secrets, passwords and files. | 🔄 |
