@@ -51,6 +51,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | **n8n** | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
 | **NetBox** | The source of truth for your network infrastructure. Its job is to define and validate the intended state of all network components and resources. | 🔄 |
 | **Nexus** | The single source of truth for all your internal and third-party binaries, components, and packages. | 🔄 |
+| [OpenLDAP](https://git.openldap.org/openldap/openldap) | An open source implementation of the Lightweight Directory Access Protocol. | 🔄 |
 | **Plane** | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
 | **PowerDNS** | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | **RabbitMQ** | Multi-protocol messaging and streaming broker. | 🔄 |
