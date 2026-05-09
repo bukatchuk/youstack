@@ -19,6 +19,8 @@ install: check-prereqs create-script install-bin install-aliases reload-bash tes
 check-prereqs:
 	@echo "🔍 [1/6] Checking prerequisites..."
 	@command -v salt >/dev/null 2>&1 || (echo "❌ salt not found"; exit 1)
+	@command -v salt-call >/dev/null 2>&1 || (echo "❌ salt-call not found"; exit 1)
+	@command -v salt-ssh >/dev/null 2>&1 || (echo "❌ salt-ssh not found"; exit 1)
 	@command -v sudo >/dev/null 2>&1 || (echo "❌ sudo not found"; exit 1)
 	@command -v make >/dev/null 2>&1 || (echo "❌ make not found"; exit 1)
 
