@@ -60,6 +60,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | **SeaweedFS** | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | 🔄 |
 | **Sentry** | Debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. | 🔄 |
 | **SonarQube** | Provides automated code quality and security reviews, delivering actionable intelligence that helps developers build better and faster. | 🔄 |
+| [Trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more. | 🔄 |
 | **Vault** | A tool for secrets management, encryption as a service, and privileged access management. | 🔄 |
 | **VictoriaMetrics** | Fast, cost-effective, and scalable solution for monitoring and managing time series data. It delivers high performance and reliability, making it an ideal choice for businesses of all sizes. | 🔄 |
 | **vip-manager** | Manages a virtual IP based on state kept in etcd or Consul. | 🔄 |
