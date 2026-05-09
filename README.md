@@ -33,7 +33,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 # Roadmap
 | Product | Description | Status |
 | :--- | :--- | :--- |
-| **Airflow** | A platform to programmatically author, schedule, and monitor workflows. | 🔄 |
+| [Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. | 🔄 |
 | **AlertManager** | Handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email, PagerDuty, OpsGenie, or many other mechanisms thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts. | 🔄 |
 | **CertMate** | Certificate management system designed for modern infrastructure. | 🔄 |
 | **Consul** | A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. | 🔄 |
