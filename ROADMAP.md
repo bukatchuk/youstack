@@ -1,20 +1,5 @@
 # Roadmap
 
-| Category | Quantity |
-| :--- | :--- |
-| Data Foundation | 6 |
-| Business Intelligence | 1 |
-| MLOps & AI Infrastructure | 1 |
-| DevOps & Observability | 13 |
-| Realtime Communication | 1 |
-| Identity & Access Management | 2 |
-| Project & Task Management | 2 |
-| Collaboration & Email | 1 |
-| Workflow & Marketing Automation | 2 |
-| Code Quality & Security | 1 |
-
----
-
 ## 1. Data Foundation
 
 | Product | Description | Status |
@@ -26,23 +11,17 @@
 | **Redis Insight** | Redis GUI by Redis. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 | **SeaweedFS** | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
-
 ## 2. Business Intelligence & Visualization
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
 | **Grafana** | Composable observability and data visualization platform. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
-
 ## 3. MLOps & AI Infrastructure
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
 | **Airflow** |  | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-
----
 
 ## 4. DevOps & Observability
 
@@ -62,15 +41,11 @@
 | **vip-manager** | Manages a virtual IP based on state kept in etcd or Consul. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 | **yopass** | Secure sharing of secrets, passwords and files. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
-
 ## 5. Realtime Communication
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
 | **Jitsi** | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-
----
 
 ## 6. Identity & Access Management
 
@@ -79,8 +54,6 @@
 | **CertMate** | Certificate management system designed for modern infrastructure. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 | **PowerDNS** | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
-
 ## 7. Project & Task Management
 
 | Product | Description | Status |
@@ -88,15 +61,11 @@
 | **kan** | A powerful, flexible kanban app that helps you organise work, track progress, and deliver results—all in one place. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 | **Plane** | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
-
 ## 8. Collaboration & Email
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
 | **mailcow** | Groupware/e-mail suite. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
-
----
 
 ## 9. Workflow & Marketing Automation
 
@@ -105,20 +74,15 @@
 | **Mautic** | Marketing Automation Software. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 | **n8n** | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
-
 ## 10. Code Quality & Security
 
 | Product | Description | Status |
 | :--- | :--- | :--- |
 | **SonarQube** | Provides automated code quality and security reviews, delivering actionable intelligence that helps developers build better and faster. | ![Status](https://img.shields.io/badge/Status-In_Progress-blue) |
 
----
 
-## 🎨 Product statuses, for example:
-
-- `![Status](https://img.shields.io/badge/Status-Planning-lightgrey)`
+<!-- - `![Status](https://img.shields.io/badge/Status-Planning-lightgrey)`
 - `![Status](https://img.shields.io/badge/Status-Active-brightgreen)`
 - `![Status](https://img.shields.io/badge/Status-On_Hold-orange)`
 - `![Status](https://img.shields.io/badge/Status-Done-success)`
-- `![Status](https://img.shields.io/badge/Status-Deprecated-red)`
+- `![Status](https://img.shields.io/badge/Status-Deprecated-red)` -->
