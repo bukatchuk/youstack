@@ -37,6 +37,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | **AlertManager** | Handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email, PagerDuty, OpsGenie, or many other mechanisms thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts. | 🔄 |
 | **CertMate** | Certificate management system designed for modern infrastructure. | 🔄 |
 | **Consul** | A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. | 🔄 |
+| [Fabio](https://github.com/fabiolb/fabio)| A fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul. | 🔄 |
 | **Gitlab** | Open source software to collaborate on code. | 🔄 |
 | **Grafana** | Composable observability and data visualization platform. | 🔄 |
 | **Graylog** | A powerful Security Information and Event Management (SIEM) solution and log analytics platform that centralizes, secures, and monitors machine-generated data across diverse sources. | 🔄 |
