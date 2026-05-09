@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+dist: bionic
+stages:
+  - test
+
+sudo: required
+cache: bundler
+language: ruby
+
+services:
+  - docker
+
+env:
+  matrix:
+    - INSTANCE: default-debian-10-3000-2-py3
+    - INSTANCE: default-ubuntu-1804-3000-2-py3
+    - INSTANCE: default-ubuntu-1804-2019-2-py3
+    - INSTANCE: default-fedora-31-3000-2-py3
+    - INSTANCE: default-centos-7-3000-2-py3
+    - INSTANCE: default-centos-7-2019-2-py3
+
+script:
+  - bin/kitchen verify ${INSTANCE}

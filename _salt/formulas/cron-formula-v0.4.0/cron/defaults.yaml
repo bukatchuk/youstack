@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+cron:
+  pkg: cronie
+  service: cron
+  enabled: true

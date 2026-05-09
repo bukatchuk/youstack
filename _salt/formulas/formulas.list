@@ -1,0 +1,15 @@
+template-formula     v5.0.12  https://github.com/saltstack-formulas/template-formula.git
+docker-formula       v2.4.3   https://github.com/saltstack-formulas/docker-formula.git
+openssh-formula      v3.0.3   https://github.com/saltstack-formulas/openssh-formula.git
+firewalld-formula    v1.3.1   https://github.com/saltstack-formulas/firewalld-formula.git
+alcali-formula       v0.4.1   https://github.com/saltstack-formulas/alcali-formula.git
+sysctl-formula       v0.6.4   https://github.com/saltstack-formulas/sysctl-formula.git
+users-formula        v0.48.8  https://github.com/saltstack-formulas/users-formula.git
+systemd-formula      v0.21.1  https://github.com/saltstack-formulas/systemd-formula.git
+ntp-formula          v0.20.0  https://github.com/saltstack-formulas/ntp-formula.git
+letsencrypt-formula  v3.2.0   https://github.com/saltstack-formulas/letsencrypt-formula.git
+timezone-formula     v0.4.4   https://github.com/saltstack-formulas/timezone-formula.git
+locale-formula       v0.3.5   https://github.com/saltstack-formulas/locale-formula.git
+nexus-formula        master   https://github.com/saltstack-formulas/nexus-formula.git
+cron-formula         v0.4.0   https://github.com/saltstack-formulas/cron-formula.git
+alcali-formula       v0.4.1   https://github.com/saltstack-formulas/alcali-formula

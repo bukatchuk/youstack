@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+letsencrypt:
+  # Install using package, git or pip
+  install_method: package
+  # A list of package/s to install. To find the correct name for the variant
+  # you want to use, check https://certbot.eff.org/all-instructions
+  # Usually, you'll need a single one, but you can also add other plugins here.
+  # It defaults to installing the `certbot` package, but you can add other
+  # plugins for authentication/install
+  pkgs:
+    - python3-certbot-apache
+    # - python3-certbot-nginx
+    # - python3-dns-route53
+  # Only used for the git or pip install methods (install_method = (git|pip))
+  cli_install_dir: /opt/letsencrypt
+  # Only used for the git or pip install methods (install_method = git|pip)).
+  # If you want to have specific version of certbot you can enable it. The
+  # version value should match a certbot/certbot branch.
+  version: 0.30.x
+  # Only used for the pip install method (install_method = pip). Can be used to
+  # install plugins for certbot. Default: []
+  pip_pkgs:
+    - certbot-dns-azure
+    - certbot-dns-powerdns
+  # Subcommand used for certificates' first generation cmd ( run | certonly | renew )
+  create_init_cert_subcmd: certonly
+  # Any parameter from the cli can be specified in the config file
+  # check https://certbot.eff.org/docs/using.html#configuration-file
+  config:
+    server: https://acme-v02.api.letsencrypt.org/directory
+    email: webmaster@example.com
+    # Don't add an authenticator here if you need (or expect) to mix authentication
+    # methods.
+    # In such case, use authenticators below
+    authenticator: webroot
+    webroot-path: /var/lib/www
+    agree-tos: true
+    keep-until-expiring: true
+    expand: true
+  # For backward compatibility, config can be passed as a string
+  # (although it's discouraged, as this format might be dropped in a future
+  # release)
+  # config: |
+  #   server = https://acme-v01.api.letsencrypt.org/directory
+  #   email = webmaster@example.com
+  #   authenticator = webroot
+  #   webroot-path = /var/lib/www
+  #   agree-tos = True
+  #   keep-until-expiring = True
+  #   expand = True
+  config_dir:
+    path: /etc/letsencrypt
+    user: root
+    group: root
+    mode: 755
+  # If you need to manage certificates for a few domainsets on the same node, but
+  # the authentication for each of these vary, you need to specify
+  # an authenticator for each of the domainsets instead of setting it in cli.ini
+  # Set them in this parameter. You can use the reserved name `default` to set
+  # the authenticator that will be used in case no other is specified for a
+  # particular domainset.
+  # Default: authenticators: {}
+
+  authenticators:
+    default: nginx
+    mail: route53
+  # As with `authenticators` above, you can specify different install methods for
+  # your different certificates. The installer set as `default` will be used to
+  # all the domainsets with no particular installer
+  # Default: installers: {}
+  installers:
+    default: nginx
+
+  domainsets:
+    www:
+      - example.com
+      - www.example.com
+    mail:
+      - imap.example.com
+      - smtp.example.com
+      - mail.example.com
+    intranet:
+      - intranet.example.com
+  # The post_renew cmds are executed via renew_letsencrypt_cert.sh after every
+  # run. For more fine grain control, consider placing scripts in the pre,
+  # post, and/or deploy directories within /etc/letsencrypt/renewal-hooks/. For
+  # more information, see: https://certbot.eff.org/docs/using.html#renewal
+  post_renew:
+    cmds:
+      - service nginx reload
+      - service haproxy reload
+  cron:
+    minute: 10
+    hour: 2
+    dayweek: 1
