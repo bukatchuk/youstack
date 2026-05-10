@@ -60,6 +60,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Kibana](https://github.com/elastic/kibana) | Interface to query, analyze, visualize, and manage your data stored in Elasticsearch. | 🔄 |
 | [Keepalived](https://github.com/acassen/keepalived) | Health-checking for LVS and high availability. | 🔄 |
 | [mailcow](https://github.com/mailcow/mailcow-dockerized) | Groupware/e-mail suite. | 🔄 |
+| [Mattermost](https://github.com/mattermost/mattermost) | Collaboration platform that offers chat, workflow automation, voice calling, screen sharing, and AI integration. | 🔄 |
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
 | [Metabase](https://github.com/metabase/metabase) | the easy, open-source way for everyone in your company to ask questions and learn from data. | 🔄 |
 | [MongoDB](https://github.com/mongodb/mongo) | NoSQL database management system that uses a document-oriented data model. | 🔄 |
@@ -83,6 +84,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) | Multi-protocol messaging and streaming broker. | 🔄 |
 | [Redis](https://github.com/redis/redis) | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | 🔄 |
 | [Redis Insight](https://github.com/redis/RedisInsight) | Redis GUI by Redis. | 🔄 |
+| [RocketChat](https://github.com/RocketChat/Rocket.Chat) | Secure, fully customizable communications platform for organizations with high standards of data protection. | 🔄 |
 | [SaltStack](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 🔄 |
 | [SaltMinion](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 🔄 |
 | [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | 🔄 |
@@ -97,3 +99,4 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [WireGuard](https://github.com/WireGuard/wireguard-linux) | An extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. | 🔄 |
 | [WireGuard UI](https://github.com/ngoduykhanh/wireguard-ui) | A web user interface to manage your WireGuard setup. | 🔄 |
 | [yopass](https://github.com/jhaals/yopass) | Secure sharing of secrets, passwords and files. | 🔄 |
+| [ZooKeeper](https://github.com/apache/zookeeper) | A centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. | 🔄 |
