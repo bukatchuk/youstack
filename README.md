@@ -69,6 +69,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [OpenSearch UI](https://github.com/opensearch-project/oui) | OpenSearch UI Framework. | 🔄 |
 | [Plane](https://github.com/makeplane/plane) | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
 | [PostgreSQL](https://github.com/postgres/postgres) | An advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions. | 🔄 |
+| [PoWA](https://github.com/powa-team/powa) | Gathers performance stats and provides real-time charts and graphs to help monitor and tune your PostgreSQL servers. | 🔄 |
 | [PowerDNS](https://github.com/PowerDNS/pdns) | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | [Pritunl](https://github.com/pritunl/pritunl) | A distributed enterprise vpn server built using the OpenVPN protocol. | 🔄 |
 | [Prometheus](https://github.com/prometheus/prometheus) | Monitoring system and time series database. | 🔄 |
