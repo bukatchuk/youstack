@@ -37,6 +37,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [AlertManager](https://github.com/prometheus/alertmanager) | Handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email, PagerDuty, OpsGenie, or many other mechanisms thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts. | 🔄 |
 | [CertMate](https://github.com/fabriziosalmi/certmate) | Certificate management system designed for modern infrastructure. | 🔄 |
 | [Consul](https://github.com/hashicorp/consul) | A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. | 🔄 |
+| [ElasticSearch](https://github.com/elastic/elasticsearch) | A distributed search and analytics engine, scalable data store and vector database optimized for speed and relevance on production-scale workloads. | 🔄 |
 | [Fabio](https://github.com/fabiolb/fabio)| A fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul. | 🔄 |
 | [FreeIPA](https://github.com/freeipa/freeipa) | An integrated security information management solution. | 🔄 |
 | [git2consul](https://github.com/breser/git2consul) | Mirrors the contents of a git repository into Consul KVs. | 🔄 |
@@ -61,7 +62,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Nora](https://github.com/getnora-io/nora) | Lightweight multi-format artifact registry. | 🔄 |
 | [OpenLDAP](https://git.openldap.org/openldap/openldap) | An open source implementation of the Lightweight Directory Access Protocol. | 🔄 |
 | [OpenVPN](https://github.com/openvpn/openvpn) | A Secure tunneling daemon. | 🔄 |
-| [OpenSearch](https://github.com/opensearch-project/opensearch) | Distributed and RESTful search engine. | 🔄 |
+| [OpenSearch](https://github.com/opensearch-project/opensearch) | A distributed and RESTful search engine. | 🔄 |
 | [Plane](https://github.com/makeplane/plane) | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
 | [PowerDNS](https://github.com/PowerDNS/pdns) | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | [Pritunl](https://github.com/pritunl/pritunl) | A distributed enterprise vpn server built using the OpenVPN protocol. | 🔄 |
