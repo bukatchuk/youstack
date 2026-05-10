@@ -61,6 +61,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Nora](https://github.com/getnora-io/nora) | Lightweight multi-format artifact registry. | 🔄 |
 | [OpenLDAP](https://git.openldap.org/openldap/openldap) | An open source implementation of the Lightweight Directory Access Protocol. | 🔄 |
 | [OpenVPN](https://github.com/openvpn/openvpn) | A Secure tunneling daemon. | 🔄 |
+| [OpenSearch](https://github.com/opensearch-project/opensearch) | Distributed and RESTful search engine. | 🔄 |
 | [Plane](https://github.com/makeplane/plane) | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
 | [PowerDNS](https://github.com/PowerDNS/pdns) | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | [Pritunl](https://github.com/pritunl/pritunl) | A distributed enterprise vpn server built using the OpenVPN protocol. | 🔄 |
