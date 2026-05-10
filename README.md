@@ -50,7 +50,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Jitsi](https://github.com/jitsi/jitsi-meet) | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
 | [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
 | [Kafka](https://github.com/apache/kafka) | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | 🔄 |
-| [KafkaRest](https://github.com/confluentinc/kafka-rest) | The Kafka REST Proxy provides a RESTful interface to a Kafka cluster. | 🔄 |
+| [Kafka REST](https://github.com/confluentinc/kafka-rest) | The Kafka REST Proxy provides a RESTful interface to a Kafka cluster. | 🔄 |
 | [KafkaUI](https://github.com/provectus/kafka-ui) | Web UI for managing Apache Kafka clusters. | 🔄 |
 | [kan](https://github.com/kanbn/kan) | A powerful, flexible kanban app that helps you organise work, track progress, and deliver results—all in one place. | 🔄 |
 | [Karma](https://github.com/prymitive/karma) | Alertmanager UI is useful for browsing alerts and managing silences, but it's lacking as a dashboard tool - karma aims to fill this gap. | 🔄 |
