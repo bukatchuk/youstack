@@ -47,6 +47,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Gitea](https://github.com/go-gitea/gitea) | Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD. | 🔄 |
 | [Grafana](https://github.com/grafana/grafana) | Composable observability and data visualization platform. | 🔄 |
 | [Graylog](https://github.com/Graylog2/graylog2-server) | A powerful Security Information and Event Management (SIEM) solution and log analytics platform that centralizes, secures, and monitors machine-generated data across diverse sources. | 🔄 |
+| [HAProxy](https://github.com/haproxy/haproxy) | Very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications. | 🔄 |
 | [Harbor](https://github.com/goharbor/harbor) | Trusted cloud native registry project that stores, signs, and scans content. | 🔄 |
 | [InfluxDB](https://github.com/influxdata/influxdb) | A database built to collect, process, transform, and store event and time series data. It is ideal for use cases that require real-time ingest and fast query response times to build user interfaces, monitoring, and automation solutions | 🔄 |
 | [Jenkins](https://github.com/jenkinsci/jenkins) | Automate your development workflow, so you can focus on work that matters most. | 🔄 |
