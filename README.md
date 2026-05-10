@@ -48,12 +48,13 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Harbor](https://github.com/goharbor/harbor) | Trusted cloud native registry project that stores, signs, and scans content. | 🔄 |
 | [Jenkins](https://github.com/jenkinsci/jenkins) | Automate your development workflow, so you can focus on work that matters most. | 🔄 |
 | [Jitsi](https://github.com/jitsi/jitsi-meet) | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
-| [Kibana](https://github.com/elastic/kibana) | Interface to query, analyze, visualize, and manage your data stored in Elasticsearch. | 🔄 |
 | [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
 | [Kafka](https://github.com/apache/kafka) | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | 🔄 |
+| [KafkaRest](https://github.com/confluentinc/kafka-rest) | The Kafka REST Proxy provides a RESTful interface to a Kafka cluster. | 🔄 |
 | [KafkaUI](https://github.com/provectus/kafka-ui) | Web UI for managing Apache Kafka clusters. | 🔄 |
 | [kan](https://github.com/kanbn/kan) | A powerful, flexible kanban app that helps you organise work, track progress, and deliver results—all in one place. | 🔄 |
 | [Karma](https://github.com/prymitive/karma) | Alertmanager UI is useful for browsing alerts and managing silences, but it's lacking as a dashboard tool - karma aims to fill this gap. | 🔄 |
+| [Kibana](https://github.com/elastic/kibana) | Interface to query, analyze, visualize, and manage your data stored in Elasticsearch. | 🔄 |
 | [mailcow](https://github.com/mailcow/mailcow-dockerized) | Groupware/e-mail suite. | 🔄 |
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
