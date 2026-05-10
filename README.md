@@ -36,6 +36,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. | 🔄 |
 | [AlertManager](https://github.com/prometheus/alertmanager) | Handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email, PagerDuty, OpsGenie, or many other mechanisms thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts. | 🔄 |
 | [CertMate](https://github.com/fabriziosalmi/certmate) | Certificate management system designed for modern infrastructure. | 🔄 |
+| [Clickhouse](https://github.com/clickhouse/clickhouse) | A real-time analytics database management system. | 🔄 |
 | [Consul](https://github.com/hashicorp/consul) | A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure. | 🔄 |
 | [ElasticSearch](https://github.com/elastic/elasticsearch) | A distributed search and analytics engine, scalable data store and vector database optimized for speed and relevance on production-scale workloads. | 🔄 |
 | [Fabio](https://github.com/fabiolb/fabio)| A fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by consul. | 🔄 |
@@ -58,6 +59,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Keepalived](https://github.com/acassen/keepalived) | Health-checking for LVS and high availability. | 🔄 |
 | [mailcow](https://github.com/mailcow/mailcow-dockerized) | Groupware/e-mail suite. | 🔄 |
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
+| [MySQL](https://github.com/mysql/mysql-server) | The world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database. | 🔄 |
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
 | [NetBox](https://github.com/netbox-community/netbox) | The source of truth for your network infrastructure. Its job is to define and validate the intended state of all network components and resources. | 🔄 |
 | [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | 🔄 |
