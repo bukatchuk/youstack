@@ -70,6 +70,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [NetBox](https://github.com/netbox-community/netbox) | The source of truth for your network infrastructure. Its job is to define and validate the intended state of all network components and resources. | 🔄 |
 | [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | 🔄 |
 | [Nexus](https://github.com/sonatype/nexus-public) | The single source of truth for all your internal and third-party binaries, components, and packages. | 🔄 |
+| [Nginx](https://github.com/nginx/nginx) | The world's most popular Web Server, high performance Load Balancer, Reverse Proxy, API Gateway and Content Cache. | 🔄 |
 | [Nora](https://github.com/getnora-io/nora) | Lightweight multi-format artifact registry. | 🔄 |
 | [OpenLDAP](https://git.openldap.org/openldap/openldap) | An open source implementation of the Lightweight Directory Access Protocol. | 🔄 |
 | [OpenVPN](https://github.com/openvpn/openvpn) | A Secure tunneling daemon. | 🔄 |
