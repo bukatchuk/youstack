@@ -61,8 +61,11 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Keepalived](https://github.com/acassen/keepalived) | Health-checking for LVS and high availability. | 🔄 |
 | [mailcow](https://github.com/mailcow/mailcow-dockerized) | Groupware/e-mail suite. | 🔄 |
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
+| [Metabase](https://github.com/metabase/metabase) | the easy, open-source way for everyone in your company to ask questions and learn from data. | 🔄 |
+| [MongoDB](https://github.com/mongodb/mongo) | NoSQL database management system that uses a document-oriented data model. | 🔄 |
 | [MySQL](https://github.com/mysql/mysql-server) | The world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database. | 🔄 |
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
+| [Neo4j](https://github.com/neo4j/neo4j) | A high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions.  | 🔄 |
 | [NetBox](https://github.com/netbox-community/netbox) | The source of truth for your network infrastructure. Its job is to define and validate the intended state of all network components and resources. | 🔄 |
 | [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | 🔄 |
 | [Nexus](https://github.com/sonatype/nexus-public) | The single source of truth for all your internal and third-party binaries, components, and packages. | 🔄 |
