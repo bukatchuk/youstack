@@ -48,6 +48,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Grafana](https://github.com/grafana/grafana) | Composable observability and data visualization platform. | 🔄 |
 | [Graylog](https://github.com/Graylog2/graylog2-server) | A powerful Security Information and Event Management (SIEM) solution and log analytics platform that centralizes, secures, and monitors machine-generated data across diverse sources. | 🔄 |
 | [Harbor](https://github.com/goharbor/harbor) | Trusted cloud native registry project that stores, signs, and scans content. | 🔄 |
+| [InfluxDB](https://github.com/influxdata/influxdb) | A database built to collect, process, transform, and store event and time series data. It is ideal for use cases that require real-time ingest and fast query response times to build user interfaces, monitoring, and automation solutions | 🔄 |
 | [Jenkins](https://github.com/jenkinsci/jenkins) | Automate your development workflow, so you can focus on work that matters most. | 🔄 |
 | [Jitsi](https://github.com/jitsi/jitsi-meet) | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
 | [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
