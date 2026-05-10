@@ -56,6 +56,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
 | [NetBox](https://github.com/netbox-community/netbox) | The source of truth for your network infrastructure. Its job is to define and validate the intended state of all network components and resources. | 🔄 |
+| [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | 🔄 |
 | [Nexus](https://github.com/sonatype/nexus-public) | The single source of truth for all your internal and third-party binaries, components, and packages. | 🔄 |
 | [Nora](https://github.com/getnora-io/nora) | Lightweight multi-format artifact registry. | 🔄 |
 | [OpenLDAP](https://git.openldap.org/openldap/openldap) | An open source implementation of the Lightweight Directory Access Protocol. | 🔄 |
