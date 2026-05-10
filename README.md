@@ -88,6 +88,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | 🔄 |
 | [Sentry](https://github.com/getsentry/sentry) | Debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. | 🔄 |
 | [SonarQube](https://github.com/SonarSource/sonarqube) | Provides automated code quality and security reviews, delivering actionable intelligence that helps developers build better and faster. | 🔄 |
+| [Superset](https://github.com/apache/superset) | A data visualization and data exploration platform. | 🔄 |
 | [Trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more. | 🔄 |
 | [Vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management. | 🔄 |
 | [VictoriaMetrics](https://github.com/victoriametrics/VictoriaMetrics) | Fast, cost-effective, and scalable solution for monitoring and managing time series data. It delivers high performance and reliability, making it an ideal choice for businesses of all sizes. | 🔄 |
