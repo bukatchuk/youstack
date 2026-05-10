@@ -35,6 +35,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | :--- | :--- | :--- |
 | [Airflow](https://github.com/apache/airflow) | A platform to programmatically author, schedule, and monitor workflows. | 🔄 |
 | [AlertManager](https://github.com/prometheus/alertmanager) | Handles alerts sent by client applications such as the Prometheus server. It takes care of deduplicating, grouping, and routing them to the correct receiver integrations such as email, PagerDuty, OpsGenie, or many other mechanisms thanks to the webhook receiver. It also takes care of silencing and inhibition of alerts. | 🔄 |
+| [Caddy](https://github.com/caddyserver/caddy) | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS. | 🔄 |
 | [Cassandra](https://github.com/apache/cassandra) | Transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance. | 🔄 |
 | [CertMate](https://github.com/fabriziosalmi/certmate) | Certificate management system designed for modern infrastructure. | 🔄 |
 | [Clickhouse](https://github.com/clickhouse/clickhouse) | A real-time analytics database management system. | 🔄 |
