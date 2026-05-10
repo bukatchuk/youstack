@@ -55,6 +55,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [kan](https://github.com/kanbn/kan) | A powerful, flexible kanban app that helps you organise work, track progress, and deliver results—all in one place. | 🔄 |
 | [Karma](https://github.com/prymitive/karma) | Alertmanager UI is useful for browsing alerts and managing silences, but it's lacking as a dashboard tool - karma aims to fill this gap. | 🔄 |
 | [Kibana](https://github.com/elastic/kibana) | Interface to query, analyze, visualize, and manage your data stored in Elasticsearch. | 🔄 |
+| [Keepalived](https://github.com/acassen/keepalived) | Health-checking for LVS and high availability. | 🔄 |
 | [mailcow](https://github.com/mailcow/mailcow-dockerized) | Groupware/e-mail suite. | 🔄 |
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
@@ -67,6 +68,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [OpenSearch](https://github.com/opensearch-project/opensearch) | A distributed and RESTful search engine. | 🔄 |
 | [OpenSearch UI](https://github.com/opensearch-project/oui) | OpenSearch UI Framework. | 🔄 |
 | [Plane](https://github.com/makeplane/plane) | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
+| [PostgreSQL](https://github.com/postgres/postgres) | An advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions. | 🔄 |
 | [PowerDNS](https://github.com/PowerDNS/pdns) | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | [Pritunl](https://github.com/pritunl/pritunl) | A distributed enterprise vpn server built using the OpenVPN protocol. | 🔄 |
 | [Prometheus](https://github.com/prometheus/prometheus) | Monitoring system and time series database. | 🔄 |
