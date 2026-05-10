@@ -48,6 +48,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Harbor](https://github.com/goharbor/harbor) | Trusted cloud native registry project that stores, signs, and scans content. | 🔄 |
 | [Jenkins](https://github.com/jenkinsci/jenkins) | Automate your development workflow, so you can focus on work that matters most. | 🔄 |
 | [Jitsi](https://github.com/jitsi/jitsi-meet) | Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application. | 🔄 |
+| [Kibana](https://github.com/elastic/kibana) | Interface to query, analyze, visualize, and manage your data stored in Elasticsearch. | 🔄 |
 | [hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement. | 🔄 |
 | [Kafka](https://github.com/apache/kafka) | Distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. | 🔄 |
 | [KafkaUI](https://github.com/provectus/kafka-ui) | Web UI for managing Apache Kafka clusters. | 🔄 |
