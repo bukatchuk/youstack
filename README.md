@@ -63,6 +63,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Plane](https://github.com/makeplane/plane) | Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage. | 🔄 |
 | [PowerDNS](https://github.com/PowerDNS/pdns) | A versatile nameserver which supports a large number of backends. These backends can either be plain zone files or be more dynamic in nature. | 🔄 |
 | [Pritunl](https://github.com/pritunl/pritunl) | A distributed enterprise vpn server built using the OpenVPN protocol. | 🔄 |
+| [Prometheus](https://github.com/prometheus/prometheus) | Monitoring system and time series database. | 🔄 |
 | [RabbitMQ](https://github.com/rabbitmq/rabbitmq-server) | Multi-protocol messaging and streaming broker. | 🔄 |
 | [Redis](https://github.com/redis/redis) | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | 🔄 |
 | [Redis Insight](https://github.com/redis/RedisInsight) | Redis GUI by Redis. | 🔄 |
