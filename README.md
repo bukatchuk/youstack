@@ -65,6 +65,7 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Mattermost](https://github.com/mattermost/mattermost) | Collaboration platform that offers chat, workflow automation, voice calling, screen sharing, and AI integration. | 🔄 |
 | [Mautic](https://github.com/mautic/mautic) | Marketing Automation Software. | 🔄 |
 | [Metabase](https://github.com/metabase/metabase) | the easy, open-source way for everyone in your company to ask questions and learn from data. | 🔄 |
+| [Moira](https://github.com/moira-alert/moira) | Moira is a real-time alerting tool, based on Graphite or Prometheus/VictoriaMetrics metrics. | 🔄 |
 | [MongoDB](https://github.com/mongodb/mongo) | NoSQL database management system that uses a document-oriented data model. | 🔄 |
 | [MySQL](https://github.com/mysql/mysql-server) | The world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database. | 🔄 |
 | [n8n](https://github.com/n8n-io/n8n) | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or clouds integrations. | 🔄 |
