@@ -1,6 +1,6 @@
 # Install SaltStack
 
-## Linux (DEB) testet on Ubuntu 26.04 LTS
+## Linux (DEB) tested on Ubuntu 26.04 LTS
 Install the salt-master, salt-minion and other Salt components.
 ```
 mkdir -m 755 -p /etc/apt/keyrings; \
