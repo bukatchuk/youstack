@@ -30,8 +30,7 @@ This guide provides instructions for installing Salt on [Salt supported operatin
 
 ## Install YouStack
 ```
-$ git clone git@github.com:bukatchuk/youstack.git && cd youstack
-$ make install
+git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🔍 [1/6] Checking prerequisites...
 📝 [2/6] Creating script...
 🔧 [3/6] Installing binary...
