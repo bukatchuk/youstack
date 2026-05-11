@@ -1,6 +1,7 @@
 # YouStack
 YouStack - A transparent SaltStack wrapper.
-
+> [!IMPORTANT]
+> This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
 ## Quick start
 ```
 $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
@@ -19,9 +20,6 @@ $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🎉 YouStack 1.0.0 installed successfully!
 Commands: ys, ysc, yssh
 ```
-> [!IMPORTANT]
-> This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
-
 # Usage
 ```
 # Works identically to salt
