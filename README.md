@@ -7,33 +7,6 @@ $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 ```
 ## Result
 ```
-🔍 [0/6] Setting up SaltStack 3007.13
-✅ GPG key added
-✅ Repository added
-✅ Package list updated
-🔧 Installing salt-common=3007.13
-✅ salt-common installed
-🔧 Installing salt-master=3007.13
-✅ salt-master installed
-🔧 Installing salt-minion=3007.13
-✅ salt-minion installed
-🔧 Installing salt-ssh=3007.13
-✅ salt-ssh installed
-🔧 Installing salt-syndic=3007.13
-✅ salt-syndic installed
-🔧 Installing salt-cloud=3007.13
-✅ salt-cloud installed
-🔧 Installing salt-api=3007.13
-✅ salt-api installed
-✅ SaltStack installation complete!
-🔍 Processing salt-master...
-✅ salt-master enabled and started
-🔍 Processing salt-minion...
-✅ salt-minion enabled and started
-🔍 Processing salt-syndic...
-✅ salt-syndic enabled and started
-🔍 Processing salt-api...
-✅ salt-api enabled and started
 🔍 [1/6] Checking prerequisites...
 📝 [2/6] Creating script...
 🔧 [3/6] Installing binary...
@@ -46,7 +19,8 @@ $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🎉 YouStack 1.0.0 installed successfully!
 Commands: ys, ysc, yssh
 ```
-This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
+> [!IMPORTANT]
+> This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
 
 # Usage
 ```
