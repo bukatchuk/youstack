@@ -1,9 +1,9 @@
 # YouStack
 Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale.
 
-# Installing dependencies
+## Installing dependencies
 
-## Linux (DEB) tested on Ubuntu 26.04 LTS
+### Linux (DEB) tested on Ubuntu 26.04 LTS
 Install the salt-master, salt-minion and other Salt components.
 ```
 mkdir -m 755 -p /etc/apt/keyrings; \
@@ -29,7 +29,7 @@ systemctl enable salt-api && systemctl start salt-api
 ```
 This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
 
-# Install YouStack
+## Install YouStack
 ```
 $ git clone git@github.com:bukatchuk/youstack.git && cd youstack
 $ make install
