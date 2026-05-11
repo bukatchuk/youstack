@@ -89,8 +89,8 @@ yssh '*' test.ping. # yssh === salt-ssh
 | [Redis](https://github.com/redis/redis) | Preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine. | latest | 🔄 |
 | [Redis Insight](https://github.com/redis/RedisInsight) | Redis GUI by Redis. | latest | 🔄 |
 | [RocketChat](https://github.com/RocketChat/Rocket.Chat) | Secure, fully customizable communications platform for organizations with high standards of data protection. | latest | 🔄 |
-| [SaltStack](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 3007.13 | 🔄 |
-| [SaltMinion](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 3007.13 | 🔄 |
+| [SaltStack](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 3007.13 | ✅ |
+| [SaltMinion](https://github.com/saltstack/salt) | Software to automate the management and configuration of infrastructure and applications at scale. | 3007.13 | ✅ |
 | [SeaweedFS](https://github.com/seaweedfs/seaweedfs) | Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale. | latest | 🔄 |
 | [Sentry](https://github.com/getsentry/sentry) | Debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. | latest | 🔄 |
 | [SonarQube](https://github.com/SonarSource/sonarqube) | Provides automated code quality and security reviews, delivering actionable intelligence that helps developers build better and faster. | latest | 🔄 |
