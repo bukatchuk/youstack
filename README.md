@@ -4,24 +4,18 @@ Youstack is a comprehensive solution for automating the management and configura
 ## Installing dependencies
 Install the salt-master, salt-minion and other Salt components.
 ```
-# Linux (DEB) tested on Ubuntu 26.04 LTS
-$ mkdir -m 755 -p /etc/apt/keyrings; \
-    curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | gpg --dearmor | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp > /dev/null; \
-    curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | sudo tee /etc/apt/sources.list.d/salt.sources; \
-    export SALT_VERSION=3007.13; \
-    apt update -y; \
-    apt-get install -y \
-        salt-common=${SALT_VERSION} \
-        salt-master=${SALT_VERSION} \
-        salt-minion=${SALT_VERSION} \
-        salt-ssh=${SALT_VERSION} \
-        salt-syndic=${SALT_VERSION} \ 
-        salt-cloud=${SALT_VERSION} \
-        salt-api=${SALT_VERSION} 
+# make salt
 ```
 Enable and start the Salt services
 ```
-for s in salt-master salt-minion salt-syndic salt-api; do systemctl enable "$s" && systemctl start "$s"; done
+for service in salt-master salt-minion salt-syndic salt-api; do
+    echo "Processing $service..."
+    if systemctl enable "$service" && systemctl start "$service"; then
+        echo "✓ $service enabled and started successfully"
+    else
+        echo "✗ Failed to enable/start $service"
+    fi
+done
 ```
 This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
 

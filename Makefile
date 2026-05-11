@@ -11,10 +11,30 @@ YS_SCRIPT += ''
 YS_SCRIPT += SALT_BIN="${SALT_BIN:-salt}"
 YS_SCRIPT += exec "$${SALT_BIN}" "$$@"
 
-install: check-prereqs create-script install-bin install-aliases reload-bash test-final
+SALT_VERSION := $(SALTSTACK_VERSION)
+SALT_PACKAGES := salt-common salt-master salt-minion salt-ssh salt-syndic salt-cloud salt-api
+
+install: salt check-prereqs create-script install-bin install-aliases reload-bash test-final
 	@echo ""
 	@echo "🎉 YouStack $(YS_VERSION) installed successfully!"
 	@echo "Commands: $(YS_NAME), ysc, yssh"
+
+salt:
+	@echo "==> Setting up SaltStack $(SALT_VERSION)"
+	@sudo mkdir -m 755 -p /etc/apt/keyrings
+	@curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | \
+		gpg --dearmor | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp > /dev/null && \
+		echo "✓ GPG key added"
+	@curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | \
+		sudo tee /etc/apt/sources.list.d/salt.sources > /dev/null && \
+		echo "✓ Repository added"
+	@sudo apt update -y && echo "✓ Package list updated"
+	@for pkg in $(SALT_PACKAGES); do \
+		echo "==> Installing $${pkg}=$(SALT_VERSION)"; \
+		sudo apt-get install -y "$${pkg}=$(SALT_VERSION)"; \
+		echo "✓ $${pkg} installed"; \
+	done
+	@echo "✅ SaltStack installation complete!"
 
 check-prereqs:
 	@echo "🔍 [1/6] Checking prerequisites..."
