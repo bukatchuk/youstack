@@ -1,7 +1,7 @@
 # YouStack
 Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale.
 
-# Install SaltStack
+# Installing dependencies
 
 ## Linux (DEB) tested on Ubuntu 26.04 LTS
 Install the salt-master, salt-minion and other Salt components.
