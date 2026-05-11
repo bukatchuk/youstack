@@ -2,10 +2,9 @@
 Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale.
 
 ## Installing dependencies
-
-### Linux (DEB) tested on Ubuntu 26.04 LTS
 Install the salt-master, salt-minion and other Salt components.
 ```
+# Linux (DEB) tested on Ubuntu 26.04 LTS
 mkdir -m 755 -p /etc/apt/keyrings; \
 curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | gpg --dearmor | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp > /dev/null; \
 curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | sudo tee /etc/apt/sources.list.d/salt.sources; \
