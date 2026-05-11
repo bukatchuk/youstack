@@ -21,10 +21,7 @@ $ mkdir -m 755 -p /etc/apt/keyrings; \
 ```
 Enable and start the Salt services
 ```
-systemctl enable salt-master && systemctl start salt-master
-systemctl enable salt-minion && systemctl start salt-minion
-systemctl enable salt-syndic && systemctl start salt-syndic
-systemctl enable salt-api && systemctl start salt-api
+for s in salt-master salt-minion salt-syndic salt-api; do systemctl enable "$s" && systemctl start "$s"; done
 ```
 This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
 
