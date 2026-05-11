@@ -5,10 +5,36 @@ Youstack is a comprehensive solution for automating the management and configura
 Install the salt-master, salt-minion and other Salt components. Enable and start the Salt services.
 ```
 $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
+🔍 [0/6] Setting up SaltStack 3007.13
+✅ GPG key added
+✅ Repository added
+✅ Package list updated
+🔧 Installing salt-common=3007.13
+✅ salt-common installed
+🔧 Installing salt-master=3007.13
+✅ salt-master installed
+🔧 Installing salt-minion=3007.13
+✅ salt-minion installed
+🔧 Installing salt-ssh=3007.13
+✅ salt-ssh installed
+🔧 Installing salt-syndic=3007.13
+✅ salt-syndic installed
+🔧 Installing salt-cloud=3007.13
+✅ salt-cloud installed
+🔧 Installing salt-api=3007.13
+✅ salt-api installed
+✅ SaltStack installation complete!
+🔍 Processing salt-master...
+✅ salt-master enabled and started
+🔍 Processing salt-minion...
+✅ salt-minion enabled and started
+🔍 Processing salt-syndic...
+✅ salt-syndic enabled and started
+🔍 Processing salt-api...
+✅ salt-api enabled and started
 🔍 [1/6] Checking prerequisites...
 📝 [2/6] Creating script...
 🔧 [3/6] Installing binary...
-✅ ys installed to /usr/local/bin/ys
 📋 [4/6] Installing aliases...
 ✅ Aliases added to /home/user/.bashrc
 🔄 [5/6] Reloading bash...

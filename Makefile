@@ -31,26 +31,26 @@ salt:
 		echo "✅ Repository added"
 	@sudo apt update -y && echo "✅ Package list updated"
 	@for pkg in $(SALT_PACKAGES); do \
-		echo "==> Installing $${pkg}=$(SALT_VERSION)"; \
+		echo "🔧 Installing $${pkg}=$(SALT_VERSION)"; \
 		sudo apt-get install -y "$${pkg}=$(SALT_VERSION)"; \
 		echo "✅ $${pkg} installed"; \
 	done
 	@echo "✅ SaltStack installation complete!"
 
 start-salt-master:
-	@echo "🔍 [0/6] Processing salt-master..."
+	@echo "🔍 Processing salt-master..."
 	@systemctl enable salt-master && systemctl start salt-master && echo "✅ salt-master enabled and started" || (echo "❌ Failed" && exit 1)
 
 start-salt-minion:
-	@echo "🔍 [0/6] Processing salt-minion..."
+	@echo "🔍 Processing salt-minion..."
 	@systemctl enable salt-minion && systemctl start salt-minion && echo "✅ salt-minion enabled and started" || (echo "❌ Failed" && exit 1)
 
 start-salt-syndic:
-	@echo "🔍 [0/6] Processing salt-syndic..."
+	@echo "🔍 Processing salt-syndic..."
 	@systemctl enable salt-syndic && systemctl start salt-syndic && echo "✅ salt-syndic enabled and started" || (echo "❌ Failed" && exit 1)
 
 start-salt-api:
-	@echo "🔍 [0/6] Processing salt-api..."
+	@echo "🔍 Processing salt-api..."
 	@systemctl enable salt-api && systemctl start salt-api && echo "✅ salt-api enabled and started" || (echo "❌ Failed" && exit 1)
 
 check-prereqs:
