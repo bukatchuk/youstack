@@ -11,7 +11,7 @@ YS_SCRIPT += ''
 YS_SCRIPT += SALT_BIN="${SALT_BIN:-salt}"
 YS_SCRIPT += exec "$${SALT_BIN}" "$$@"
 
-install: salt check-prereqs create-script install-bin install-aliases reload-bash test-final
+install: check-prereqs create-script install-bin install-aliases reload-bash test-final
 	@echo ""
 	@echo "🎉 YouStack $(YS_VERSION) installed successfully!"
 	@echo "Commands: $(YS_NAME), ysc, yssh"
