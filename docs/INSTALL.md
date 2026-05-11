@@ -1,4 +1,4 @@
-# Install YouStack
+# Install SaltStack
 
 ```
 mkdir -m 755 -p /etc/apt/keyrings; \
