@@ -2,7 +2,6 @@
 Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale.
 
 ## Quick start
-Install the salt-master, salt-minion and other Salt components. Enable and start the Salt services.
 ```
 $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🔍 [0/6] Setting up SaltStack 3007.13
