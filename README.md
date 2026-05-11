@@ -4,6 +4,9 @@ Youstack is a comprehensive solution for automating the management and configura
 ## Quick start
 ```
 $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
+```
+## Result
+```
 🔍 [0/6] Setting up SaltStack 3007.13
 ✅ GPG key added
 ✅ Repository added
