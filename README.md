@@ -20,7 +20,7 @@ $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 Commands: ys, ysc, yssh
 ```
 > [!IMPORTANT]
-> This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
+> This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems){:target="_blank" rel="noopener"}. It also explains how to configure Salt, start Salt services, and verify your installation.
 
 # Usage
 ```
