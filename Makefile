@@ -1,6 +1,6 @@
 -include .env
 
-.PHONY: install uninstall clean test info
+.PHONY: install salt start-salt-services start-salt-master start-salt-minion start-salt-syndic start-salt-api uninstall clean test info
 
 YS_SCRIPT = #!/usr/bin/env bash
 YS_SCRIPT += set -euo pipefail
@@ -13,28 +13,45 @@ YS_SCRIPT += exec "$${SALT_BIN}" "$$@"
 
 SALT_VERSION := $(SALTSTACK_VERSION)
 SALT_PACKAGES := salt-common salt-master salt-minion salt-ssh salt-syndic salt-cloud salt-api
+SALT_SERVICES := salt-master salt-minion salt-syndic salt-api
 
-install: salt check-prereqs create-script install-bin install-aliases reload-bash test-final
+install: salt start-salt-services start-salt-master start-salt-minion start-salt-syndic start-salt-api check-prereqs create-script install-bin install-aliases reload-bash test-final
 	@echo ""
 	@echo "🎉 YouStack $(YS_VERSION) installed successfully!"
 	@echo "Commands: $(YS_NAME), ysc, yssh"
 
 salt:
-	@echo "==> Setting up SaltStack $(SALT_VERSION)"
+	@echo "🔍 [0/6] Setting up SaltStack $(SALT_VERSION)"
 	@sudo mkdir -m 755 -p /etc/apt/keyrings
 	@curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | \
 		gpg --dearmor | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp > /dev/null && \
-		echo "✓ GPG key added"
+		echo "✅ GPG key added"
 	@curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | \
 		sudo tee /etc/apt/sources.list.d/salt.sources > /dev/null && \
-		echo "✓ Repository added"
-	@sudo apt update -y && echo "✓ Package list updated"
+		echo "✅ Repository added"
+	@sudo apt update -y && echo "✅ Package list updated"
 	@for pkg in $(SALT_PACKAGES); do \
 		echo "==> Installing $${pkg}=$(SALT_VERSION)"; \
 		sudo apt-get install -y "$${pkg}=$(SALT_VERSION)"; \
-		echo "✓ $${pkg} installed"; \
+		echo "✅ $${pkg} installed"; \
 	done
 	@echo "✅ SaltStack installation complete!"
+
+start-salt-master:
+	@echo "🔍 [0/6] Processing salt-master..."
+	@systemctl enable salt-master && systemctl start salt-master && echo "✅ salt-master enabled and started" || (echo "❌ Failed" && exit 1)
+
+start-salt-minion:
+	@echo "🔍 [0/6] Processing salt-minion..."
+	@systemctl enable salt-minion && systemctl start salt-minion && echo "✅ salt-minion enabled and started" || (echo "❌ Failed" && exit 1)
+
+start-salt-syndic:
+	@echo "🔍 [0/6] Processing salt-syndic..."
+	@systemctl enable salt-syndic && systemctl start salt-syndic && echo "✅ salt-syndic enabled and started" || (echo "❌ Failed" && exit 1)
+
+start-salt-api:
+	@echo "🔍 [0/6] Processing salt-api..."
+	@systemctl enable salt-api && systemctl start salt-api && echo "✅ salt-api enabled and started" || (echo "❌ Failed" && exit 1)
 
 check-prereqs:
 	@echo "🔍 [1/6] Checking prerequisites..."

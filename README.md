@@ -1,25 +1,8 @@
 # YouStack
 Youstack is a comprehensive solution for automating the management and configuration of infrastructure and applications at any scale.
 
-## Installing dependencies
-Install the salt-master, salt-minion and other Salt components.
-```
-# make salt
-```
-Enable and start the Salt services
-```
-for service in salt-master salt-minion salt-syndic salt-api; do
-    echo "Processing $service..."
-    if systemctl enable "$service" && systemctl start "$service"; then
-        echo "✓ $service enabled and started successfully"
-    else
-        echo "✗ Failed to enable/start $service"
-    fi
-done
-```
-This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
-
 ## Install YouStack
+Install the salt-master, salt-minion and other Salt components. Enable and start the Salt services.
 ```
 $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🔍 [1/6] Checking prerequisites...
@@ -35,6 +18,8 @@ $ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🎉 YouStack 1.0.0 installed successfully!
 Commands: ys, ysc, yssh
 ```
+This guide provides instructions for installing Salt on [Salt supported operating systems](https://docs.saltproject.io/salt/install-guide/en/latest/topics/salt-supported-operating-systems.html#salt-supported-operating-systems). It also explains how to configure Salt, start Salt services, and verify your installation.
+
 # Usage
 ```
 # Works identically to salt
