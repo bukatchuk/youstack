@@ -5,19 +5,19 @@ Youstack is a comprehensive solution for automating the management and configura
 Install the salt-master, salt-minion and other Salt components.
 ```
 # Linux (DEB) tested on Ubuntu 26.04 LTS
-mkdir -m 755 -p /etc/apt/keyrings; \
-curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | gpg --dearmor | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp > /dev/null; \
-curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | sudo tee /etc/apt/sources.list.d/salt.sources; \
-export SALT_VERSION=3007.13; \
-apt update -y; \
-apt-get install -y \
-    salt-common=${SALT_VERSION} \
-    salt-master=${SALT_VERSION} \
-    salt-minion=${SALT_VERSION} \
-    salt-ssh=${SALT_VERSION} \
-    salt-syndic=${SALT_VERSION} \ 
-    salt-cloud=${SALT_VERSION} \
-    salt-api=${SALT_VERSION} 
+$ mkdir -m 755 -p /etc/apt/keyrings; \
+    curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | gpg --dearmor | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp > /dev/null; \
+    curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | sudo tee /etc/apt/sources.list.d/salt.sources; \
+    export SALT_VERSION=3007.13; \
+    apt update -y; \
+    apt-get install -y \
+        salt-common=${SALT_VERSION} \
+        salt-master=${SALT_VERSION} \
+        salt-minion=${SALT_VERSION} \
+        salt-ssh=${SALT_VERSION} \
+        salt-syndic=${SALT_VERSION} \ 
+        salt-cloud=${SALT_VERSION} \
+        salt-api=${SALT_VERSION} 
 ```
 Enable and start the Salt services
 ```
@@ -30,7 +30,7 @@ This guide provides instructions for installing Salt on [Salt supported operatin
 
 ## Install YouStack
 ```
-git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
+$ git clone git@github.com:bukatchuk/youstack.git && cd youstack; make install
 🔍 [1/6] Checking prerequisites...
 📝 [2/6] Creating script...
 🔧 [3/6] Installing binary...
